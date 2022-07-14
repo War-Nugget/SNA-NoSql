@@ -4,10 +4,10 @@ Social Networking API
   
   
 ## Description 
-    
-    
+      
 This API allows users to share their thoughts, react to friends' thoughts, and create friends lists using mongoose.
 
+Link to video presentation: https://drive.google.com/file/d/1yf9WZV8ypGzgsKnu86j5wFFKWSkByMah/view?usp=sharing
 
 ## Table of Contents
 * [Installation](#installation)
