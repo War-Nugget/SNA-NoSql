@@ -7,6 +7,6 @@ const thoughtRoutes = require('./thought-routes');
 router.use('/users', userRoutes);
 
 // Adds thoughts to created routes
-router,use('/thoughts', thoughtRoutes);
+router.use('/thoughts', thoughtRoutes);
 
 module.exports = router;
