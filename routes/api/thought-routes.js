@@ -1,14 +1,17 @@
+// Require express router
 const router = require('express').Router();
 
-const {
-    getAllThoughts,
-    getThoughtById,
-    createThoughts,
-    updateThought,
-    deleteThought,
+// Set requirements (from thoughts-controller)
+const { 
+    getAllThoughts, 
+    getThoughtsById, 
+    createThoughts, 
+    updateThoughts,
+    deleteThoughts,
     addReaction,
     deleteReaction
-} = require('../../controllers/Though-controller');
+
+} = require('../../controllers/thoughts-controller');
 
 // -- Directs to: /api/thoughts <GET>
 router.route('/').get(getAllThoughts);
